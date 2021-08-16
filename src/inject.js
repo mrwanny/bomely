@@ -44,15 +44,7 @@ betterOrgChart.onclick = function() {
                         field_number_children: "field_number_children"
                     },
                     collapse: {
-                        level: 1,
-                        allChildren: true
-                    },
-                    collapse: {
-                        level: 0,
-                        allChildren: true
-                    },
-                    expand: {
-                        nodes: ["079a97e4-3b16-40f2-8990-8bb672a54bd8","609d5731-2eb1-4a96-ada5-ead96f21afaa","09c4cd84-2024-4b23-b164-9c0bf0a2f7c1"],
+                        level: 2,
                         allChildren: true
                     },
                     nodes: orgnodes
