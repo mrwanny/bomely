@@ -1,0 +1,22 @@
+{
+  "name": "Better Org Chart for Namely",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Add a better org chart to Namely ",
+  "homepage_url": "https://github.com/mrwanny/bomely",
+  "author": "Wanny Morellato",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.namely.com/people/org","https://*.namely.com/people"
+      ],
+      "js": [
+        "src/OrgChart.js","src/inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
